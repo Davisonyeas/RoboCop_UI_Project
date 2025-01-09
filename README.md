@@ -34,12 +34,33 @@ The system measures the distance of nearby objects using an ultrasonic sensor, c
    - Connect the ESP32 to a power source using the USB Type C terminal.
    - Wait for it to connect to the `AirVandalRobot` Wi-Fi network.
 
+2. **Clone the Repository**:
+    -   ```bash
+            git clone https://github.com/
+        ```
+
+3. **Install project requirements**:
+    -   ```bash
+            pip install -r requirements.txt
+        ```
+
+
+4. **Move to Python_Client folder**:
+    - ```bash
+            cd Python_Client/
+      ```
+
+
+
+
+    
+
 2. **Access the Data**:
    - Use the provided Python client (`Python_Client/client.py`) to read the distance value from the Modbus server:
      ```bash
      python client.py
      ```
-   - Alternatively, use a Modbus-compatible application (e.g., ModScan, QModMaster, Modbus Poller, etc):
+   - Alternatively, use a Modbus-compatible application (e.g., ModScan, QModMaster, Modbus Poll, etc):
      - **IP Address**: `129.xx.xx.xx`
      - **Port**: `502`
      - **Register**: `5` (holding register for the distance)
