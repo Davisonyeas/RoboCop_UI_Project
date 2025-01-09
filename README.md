@@ -50,7 +50,7 @@ The system measures the distance of nearby objects using an ultrasonic sensor, c
       ```
 
 5. **Client.py**
-    - Open the client.py file
+    - Open the client_distance.py file
     - Edit the Server_IP
         - Replace with the IP address being displayed in the LCD screen of the RoboCop device you want to read
             - Example: <br />
@@ -65,9 +65,9 @@ The system measures the distance of nearby objects using an ultrasonic sensor, c
     
 
 2. **Access the Data**:
-   - Use the provided Python client (`Python_Client/client.py`) to read the distance value from the Modbus server:
+   - Use the provided Python client (`Python_Client/client_distance.py`) to read the distance value from the Modbus server:
      ```bash
-     python client.py
+     python client_distance.py
      ```
    - Alternatively, use a Modbus-compatible application (e.g., ModScan, QModMaster, Modbus Poll, etc):
      - **IP Address**: `129.xx.xx.xx`
