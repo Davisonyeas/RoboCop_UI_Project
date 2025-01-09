@@ -34,7 +34,7 @@ The system measures the distance of nearby objects using an ultrasonic sensor, c
    - Connect the ESP32 to a power source using the USB Type C terminal.
    - Wait for it to connect to the `AirVandalRobot` Wi-Fi network.
 
-2. **Clone the Repository**:
+2. **Clone the Repository**: <br />
        ```
             git clone https://github.com/
         ```
