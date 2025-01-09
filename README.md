@@ -128,8 +128,8 @@ Additional resources:
 2. **3D Print Mounts**:
    - Use the STL files in the `3D_Models` folder to 3D print the sensor and ESP32 mounts.
 
-3. **Wiring Diagram**:
-   - Refer to `wiring_diagram.png` in the `Images` folder.
+<!-- 3. **Wiring Diagram**:
+   - Refer to `wiring_diagram.png` in the `Images` folder. -->
 
 ---
 
