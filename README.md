@@ -35,18 +35,18 @@ The system measures the distance of nearby objects using an ultrasonic sensor, c
    - Wait for it to connect to the `AirVandalRobot` Wi-Fi network.
 
 2. **Clone the Repository**:
-       ```bash
+       ```
             git clone https://github.com/
         ```
 
 3. **Install project requirements**:
-    -   ```bash
+    -   ```
             pip install -r requirements.txt
         ```
 
 
 4. **Move to Python_Client folder**:
-    - ```bash
+    - ```
             cd Python_Client/
       ```
 
