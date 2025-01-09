@@ -44,12 +44,21 @@ The system measures the distance of nearby objects using an ultrasonic sensor, c
             pip install -r requirements.txt
         ```
 
-
 4. **Move to Python_Client folder**:
     - ```
             cd Python_Client/
       ```
 
+5. **Client.py**
+    - Open the client.py file
+    - Edit the Server_IP
+        - Replace with the IP address being displayed in the LCD screen of the RoboCop device you want to read
+            - Example:
+                SERVER_IP = "192.102.98.2"
+        
+        - Leave the port and holding register unchanged
+            SERVER_PORT = 502
+            REGISTER_ADDRESS = 5
 
 
 
