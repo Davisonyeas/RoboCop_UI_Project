@@ -12,6 +12,7 @@ const char* password = "xxxx";
 rgb_lcd lcd;
 
 // Static IP configuration
+// Change to your network configuration
 IPAddress local_IP(129,101,98,2); // Desired static IP
 IPAddress gateway(129,101,98,198);    // Router's IP
 IPAddress subnet(255,255,255,0);   // Subnet mask
